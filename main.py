@@ -9,6 +9,7 @@ from sklearn.metrics import classification_report
 # Download necessary NLTK data
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
 
 # Sample dataset - In reality, you would need a much larger and more diverse dataset
